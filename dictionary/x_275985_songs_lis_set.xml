@@ -2,7 +2,7 @@
 <database>
     <element label="Set" max_length="40" name="x_275985_songs_lis_set" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="u_notes" type="string"/>
-        <element label="Songs" max_length="32" name="u_songs" reference="x_275985_songs_lis_song" type="reference"/>
+        <element label="Songs" max_length="32" name="u_songs" reference="x_275985_songs_lis_song" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="100" name="u_title" type="string"/>
         <index name="index">
             <element name="u_songs"/>
