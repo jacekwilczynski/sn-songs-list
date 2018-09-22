@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Song" max_length="40" name="x_275985_songs_lis_song" type="collection">
+        <element label="Author" max_length="40" name="author" type="string"/>
+        <element label="Tempo" max_length="40" name="tempo" type="integer"/>
+        <element display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+    </element>
+</database>
