@@ -4,5 +4,6 @@
         <element label="Author" max_length="40" name="author" type="string"/>
         <element label="Tempo" max_length="40" name="tempo" type="integer"/>
         <element display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="u_notes" type="string"/>
     </element>
 </database>
