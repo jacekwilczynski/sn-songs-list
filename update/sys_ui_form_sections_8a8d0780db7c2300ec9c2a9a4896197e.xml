@@ -15,6 +15,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-22 16:21:13</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-22 16:37:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d515b04db7c2300ec9c2a9a489619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_275985_songs_lis_song" name="x_275985_songs_lis_song" sys_domain="global" view="4e8dc380db7c2300ec9c2a9a4896198c">8a8d0780db7c2300ec9c2a9a4896197e</sys_ui_form>
+            <sys_ui_section caption="Metadata" display_value="Metadata" name="x_275985_songs_lis_song" sys_domain="global" view="4e8dc380db7c2300ec9c2a9a4896198c">55515b04db7c2300ec9c2a9a489619db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-22 16:37:50</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_275985_songs_lis_song</name>
             <roles/>
