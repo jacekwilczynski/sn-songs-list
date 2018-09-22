@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="title" label="Title" language="en" table="x_275985_songs_lis_set">
+    <sys_documentation element="u_songs" label="Songs" language="en" table="x_275985_songs_lis_set">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>title</element>
+            <element>u_songs</element>
             <help/>
             <hint/>
-            <label>Title</label>
+            <label>Songs</label>
             <language>en</language>
             <name>x_275985_songs_lis_set</name>
-            <plural>Titles</plural>
+            <plural>Songs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-22 16:12:46</sys_created_on>
-            <sys_id>1a9bcb00db7c2300ec9c2a9a48961945</sys_id>
+            <sys_created_on>2018-09-22 16:46:36</sys_created_on>
+            <sys_id>3d531708db7c2300ec9c2a9a489619da</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Title</sys_name>
+            <sys_name>Songs</sys_name>
             <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
             <sys_policy/>
             <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
-            <sys_update_name>sys_documentation_x_275985_songs_lis_set_title_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_275985_songs_lis_set_u_songs_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-22 16:12:46</sys_updated_on>
+            <sys_updated_on>2018-09-22 16:46:36</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

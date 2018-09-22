@@ -5,22 +5,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_275985_songs_lis_set</name>
+        <name>x_275985_songs_lis_song</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-22 16:12:46</sys_created_on>
-        <sys_id>929bcb00db7c2300ec9c2a9a4896194e</sys_id>
+        <sys_created_on>2018-09-22 16:05:07</sys_created_on>
+        <sys_id>47b2db84db7c2300ec9c2a9a4896190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_275985_songs_lis_set</sys_name>
+        <sys_name>x_275985_songs_lis_song</sys_name>
         <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
-        <sys_update_name>ua_table_licensing_config_929bcb00db7c2300ec9c2a9a4896194e</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_47b2db84db7c2300ec9c2a9a4896190d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-22 16:12:46</sys_updated_on>
+        <sys_updated_on>2018-09-22 16:05:07</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
