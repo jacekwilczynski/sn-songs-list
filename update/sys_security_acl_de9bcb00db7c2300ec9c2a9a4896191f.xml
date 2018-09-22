@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_275985_songs_lis_set</description>
+        <name>x_275985_songs_lis_set</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 16:12:46</sys_created_on>
+        <sys_id>de9bcb00db7c2300ec9c2a9a4896191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_275985_songs_lis_set</sys_name>
+        <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
+        <sys_update_name>sys_security_acl_de9bcb00db7c2300ec9c2a9a4896191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 16:12:46</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

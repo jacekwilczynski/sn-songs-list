@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_275985_songs_lis.set_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>set_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 16:12:46</sys_created_on>
+        <sys_id>029bc700db7c2300ec9c2a9a48961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_275985_songs_lis.set_user</sys_name>
+        <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
+        <sys_update_name>sys_user_role_029bc700db7c2300ec9c2a9a48961935</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 16:12:46</sys_updated_on>
+    </sys_user_role>
+</record_update>
