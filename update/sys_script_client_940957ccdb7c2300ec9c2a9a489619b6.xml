@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Give a hint to the user if the tempo is extreme in either direction</description>
+        <field>tempo</field>
+        <global>true</global>
+        <messages/>
+        <name>Tempo Check</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	// If the tempo is neither very slow nor very fast, don't do anything
+	if (newValue > 50 && newValue < 250) {
+		return;
+	}
+	
+	// Generate the text to be displayed to the user based on the tempo entered
+	var text;
+	if (newValue <= 50) {
+		text = "Really? That slow? Aren't people gonna fall asleep?";
+	} else {
+		text = 'You really think you can play that fast?';
+	}
+	
+	// Ask the user if he's sure he wants to set the tempo to the given value.
+	var answer = confirm(newValue + '? ' + text);
+	// If the user says no, return the field to the value it had when the form was opened
+	if (!answer) {
+		g_form.setValue('tempo', oldValue);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 17:26:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>940957ccdb7c2300ec9c2a9a489619b6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tempo Check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
+        <sys_update_name>sys_script_client_940957ccdb7c2300ec9c2a9a489619b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 17:31:39</sys_updated_on>
+        <table>x_275985_songs_lis_song</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
