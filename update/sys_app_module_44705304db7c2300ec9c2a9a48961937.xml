@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Songs List">240e0b80db7c2300ec9c2a9a489619f7</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>Display all songs regardless of the sets they belong to</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Songs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_275985_songs_lis_song</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 16:34:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44705304db7c2300ec9c2a9a48961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Songs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
+        <sys_update_name>sys_app_module_44705304db7c2300ec9c2a9a48961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 16:34:43</sys_updated_on>
+        <timeline_page/>
+        <title>All Songs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

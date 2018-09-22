@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Songs List</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-22 16:25:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d7e0f80db7c2300ec9c2a9a489619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Songs List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
+        <sys_update_name>sys_ui_application_4d7e0f80db7c2300ec9c2a9a489619fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-22 16:25:25</sys_updated_on>
+    </sys_ui_application>
+</record_update>

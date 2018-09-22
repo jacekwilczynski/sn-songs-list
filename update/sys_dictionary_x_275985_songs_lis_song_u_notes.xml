@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="title" table="x_275985_songs_lis_song">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_notes" table="x_275985_songs_lis_song">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Title</column_label>
+        <column_label>Notes</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,19 +18,19 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>title</element>
+        <element>u_notes</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>100</max_length>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
         <name>x_275985_songs_lis_song</name>
         <next_element/>
         <primary>false</primary>
@@ -53,16 +48,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-22 16:05:06</sys_created_on>
-        <sys_id>49498f4cdb3c2300ec9c2a9a489619ca</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Title</sys_name>
+        <sys_created_on>2018-09-22 16:17:25</sys_created_on>
+        <sys_id>daac8b40db7c2300ec9c2a9a4896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
         <sys_package display_value="Songs List" source="x_275985_songs_lis">90668f4cdbf82300ec9c2a9a48961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="Songs List">90668f4cdbf82300ec9c2a9a48961924</sys_scope>
-        <sys_update_name>sys_dictionary_x_275985_songs_lis_song_title</sys_update_name>
+        <sys_update_name>sys_dictionary_x_275985_songs_lis_song_u_notes</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-22 16:18:28</sys_updated_on>
+        <sys_updated_on>2018-09-22 16:17:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
